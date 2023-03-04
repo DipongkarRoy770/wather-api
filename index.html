@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather API call</title>
+  <!-- tailwind framwork -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css"  rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
+
+</head>
+ <header> 
+   <div class="text-center pt-10">
+    <input type="text" id="input" placeholder="Type Your City Name" class="input input-bordered input-secondary w-full max-w-xs" />
+    <button id="btn" class="btn btn-warning">Search</button> 
+   </div>
+ </header>
+<body style="background-image:url(./images/bg-image.jpg);" class="min-h-screen no-repeat bg-cover	">
+  <main class="mt-24 text-center">
+       <h1 class="text-5xl font-bold text-white"><span id="country">DHAKA</span></h1> 
+       <h2 class="text-3xl font-semibold text-white mt-2	"><span id="tem">00.00</span>&deg;C</h2>
+       <h1 class="text-2xl medium text-white mt-2	"><span id="sky">Clouds</span></h1>
+  </main>
+  <script src="./main.js"></script>
+</body>
+</html>
